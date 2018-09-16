@@ -1,0 +1,133 @@
+﻿#author=Xylem Studios
+#name=Français
+#shortname=fr
+#contact=webmaster@xylemstudios.com
+#site=http://xylemstudios.com
+
+RGB=RVB
+RGB:R=R
+RGB:G=V
+RGB:B=B
+
+HSV=TSV
+HSV:H=T
+HSV:S=S
+HSV:V=V
+
+FILTERS=Filtres
+FILTERS:GRAYSCALE=Niveaux de gris
+FILTERS:NEGATIVE=Négatif
+FILTERS:SEPIA=Ton sépia
+FILTERS:BRIGHTER=Plus clair
+FILTERS:DARKER=Plus foncé
+FILTERS:INTENSIFY=Intensifier
+FILTERS:REDONLY=Rouge uniquement
+FILTERS:GREENONLY=Vert uniquement
+FILTERS:BLUEONLY=Bleu uniquement
+FILTERS:RGBSHUFFLE=Mélange RVB
+FILTERS:HOVER=Passez votre souris sur un filtre pour obtenir plus d'informations.
+
+FILTER_DESC=Description
+FILTER_DESC:GRAYSCALE=Convertit la couleur selectionnée en noir et blanc.
+FILTER_DESC:NEGATIVE=Inverse les valeurs RVB.
+FILTER_DESC:SEPIA=Donne le ton sépia de la couleur selectionnée.
+FILTER_DESC:BRIGHTER=Rend la couleur seletionnée plus claire.
+FILTER_DESC:DARKER=Rend la couleur seletionnée plus foncée.
+FILTER_DESC:INTENSIFY=Rend la couleur seletionnée plus intense. Veuillez noter que ce filtre est expérimental.
+FILTER_DESC:REDONLY=Donner uniquement le canal de couleur rouge.
+FILTER_DESC:GREENONLY=Donner uniquement le canal de couleur vert.
+FILTER_DESC:BLUEONLY=Donner uniquement le canal de couleur bleu.
+FILTER_DESC:RGBSHUFFLE=Mélanger les canaux de couleur rouge, vert et bleu entre eux.
+
+TOOLS=Outils
+TOOLS:COMBINER=Combineur de couleurs
+TOOLS:ADVANCEDRANDOM=Couleur aléatoire\navancée
+TOOLS:ALLCOLORSIMAGE=Obtenir les couleurs d'une image
+TOOLS:HOVER=Passez votre souris sur un outil pour obtenir plus d'informations.
+
+TOOL_ADVRAND=Couleur aléatoire avancée
+TOOL_ADVRAND:GENERATE=Générer
+TOOL_ADVRAND:HIGHRED=Rouge haut
+TOOL_ADVRAND:HIGHGREEN=Vert haut
+TOOL_ADVRAND:HIGHBLUE=Bleu haut
+TOOL_ADVRAND:HIGHSATURATION=Saturation haute
+TOOL_ADVRAND:HIGHVALUE=Valeur haute
+TOOL_ADVRAND:GRAYSCALE=Niveaux de gris
+TOOL_ADVRAND:WEBSAFE=Couleur web
+TOOL_ADVRAND:SIMPLE=Simple
+TOOL_ADVRAND:ADVANCED=Avancé
+
+TOOL_COMBINER=Combineur de couleurs
+TOOL_COMBINER:ADD=Ajouter depuis ColorUtility
+TOOL_COMBINER:REMOVE=Supprimer sélectioné(s)
+
+TOOL_ALLCOLORS=Obtenir toutes les couleurs d'une image
+TOOL_ALLCOLORS:PATH=Chemin de l'image
+TOOL_ALLCOLORS:SELECT=Selectionner
+
+TOOL_ALLCOLORS:MSG_CHECKING=Vérification de l'image
+TOOL_ALLCOLORS:MSG_INVALID=Image invalide.
+TOOL_ALLCOLORS:MSG_IDLE=Inoccupé.
+TOOL_ALLCOLORS:MSG_CHOOSE=Choisissez un fichier
+TOOL_ALLCOLORS:MSG_DIALOGFILTER=Tous les fichiers (*.*)
+TOOL_ALLCOLORS:MSG_DOESNOTEXIST=Le fichier n'existe pas!
+TOOL_ALLCOLORS:MSG_INITIALIZING=Initialisation...
+TOOL_ALLCOLORS:MSG_GATHERING=Recherche des couleurs...
+TOOL_ALLCOLORS:MSG_POPULATING=Peuplement de la liste...
+TOOL_ALLCOLORS:MSG_DONE=Terminé, {0} couleurs trouvées avec {1} couleurs differentes.
+TOOL_ALLCOLORS:MSG_ETA=Temps restant estimé: {0}
+TOOL_ALLCOLORS:MSG_SECS={0} secondes
+TOOL_ALLCOLORS:MSG_IMGTOOBIG=L'image est trop grande!
+TOOL_ALLCOLORS:MSG_ELAPSED=Temps écoulé
+TOOL_ALLCOLORS:MSG_STOPPING=Arrêt...
+
+COMMON:CANCEL=Annuler
+COMMON:SELECTANDCLOSE=Selectionner et fermer
+COMMON:INPUT=Entrée
+COMMON:OUTPUT=Sortie
+COMMON:CLOSE=Fermer
+COMMON:START=Démarrer
+COMMON:STOP=Arrêter
+COMMON:ERROR=Erreur
+COMMON:DONE=Terminé
+COMMON:SEARCH=Recherche
+COMMON:YES=Oui
+COMMON:NO=Non
+COMMON:DONTASK=Ne plus demander
+
+TOOL_DESC=Description
+TOOL_DESC:COMBINER=Combinez autant de couleurs que vous voulez avec cet outil très simple.
+TOOL_DESC:ADVANCEDGRAY=Mettre les couleurs en niveaux de gris en sélectionnant le seuil de gris.
+TOOL_DESC:ADVANCEDRANDOM=Genérer des couleurs aléatoires avec beaucoup plus d'options.
+TOOL_DESC:ALLCOLORSIMAGE=Obtenir toutes les couleurs d'une image et les montrer sous forme de liste.
+
+SETTINGS=Options
+SETTINGS:SPACES=Espaces colorimétriques
+SETTINGS:SPEED=Options de rapidité
+SETTINGS:OPTIMIZE=Optimiser vitesse pour les ordinateurs lents
+SETTINGS:LANGUAGE=Langage
+SETTINGS:LANGUAGESET=Ok
+SETTINGS:CLIPBOARD=Options du presse-papiers
+SETTINGS:CLIP_COPY=Copier le code Hex après sélection
+
+CREDITS=Crédits
+CREDITS:CODED=Codé et conçu par:
+CREDITS:NORWEGIAN=Traduction en norvégien:
+CREDITS:WEBSITE=Site web:
+
+INFO=Information
+INFO:PICKER=Sélecteur de couleur\nClic gauche pour sélectionner une couleur\nClic droit pour fermer le sélecteur
+INFO:RANDOM=Couleur aléatoire
+INFO:WEBSAFE=Convertir vers couleur web
+INFO:COLOR_RIGHTCLICK=Faites un clic droit ici pour plus d'options de format
+INFO:SPEED=Cette option diminue l'utilisation de\nla mémoire mais aussi les performances.
+INFO:CLIPBOARD_HEX=Cette option va copier le code hexadécimal de la couleur\naprès avoir été sélectionnée par le sélecteur.
+
+FORMATS:VBNET=Copier pour VB.Net
+FORMATS:VBHEX=Copier Hex pour VB
+FORMATS:CSS=Copier pour CSS
+FORMATS:WINFORMS=Copier pour WinForms
+FORMATS:HEX=Copier hexadécimal
+FORMATS:HSV=Copier TSV
+
+PICKER:COLORCHANGED=Vous avez fermé le sélecteur de couleur et la couleur sélectionnée a changé.\nVoulez-vous revenir vers la couleur originale?

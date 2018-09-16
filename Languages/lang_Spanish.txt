@@ -1,0 +1,132 @@
+﻿#author=Xylem Studios
+#name=Spanish
+#shortname=es
+#contact=webmaster@xylemstudios.com
+#site=http://xylemstudios.com
+
+RGB=RGB
+RGB:R=R
+RGB:G=G
+RGB:B=B
+
+HSV=HSV
+HSV:H=H
+HSV:S=S
+HSV:V=V
+
+FILTERS=Filtros
+FILTERS:GRAYSCALE=Escala de grises
+FILTERS:NEGATIVE=Negativo
+FILTERS:SEPIA=Sepia
+FILTERS:BRIGHTER=Más claro
+FILTERS:DARKER=Más oscuro
+FILTERS:INTENSIFY=Intensificar
+FILTERS:REDONLY=Sólo rojo
+FILTERS:GREENONLY=Sólo verde
+FILTERS:BLUEONLY=Sólo azúl
+FILTERS:RGBSHUFFLE=Mezcla RGB
+FILTERS:HOVER=Pase el ratón sobre un filtro para obtener información.
+
+FILTER_DESC=Descripción
+FILTER_DESC:GRAYSCALE=Convierte el color a escala de grises.
+FILTER_DESC:NEGATIVE=Invierte los valores RGB del color.
+FILTER_DESC:SEPIA=Tono sepia del color.
+FILTER_DESC:BRIGHTER=Color más claro.
+FILTER_DESC:DARKER=Color más oscuro.
+FILTER_DESC:INTENSIFY=Intensifica al color. Este filtro és experimental.
+FILTER_DESC:REDONLY=Canal rojo del color.
+FILTER_DESC:GREENONLY=Canal verde del color.
+FILTER_DESC:BLUEONLY=Canal azúl del color.
+FILTER_DESC:RGBSHUFFLE=Mezclar los canales de color rojo, verde y azúl entre ellos.
+
+TOOLS=Herramientas
+TOOLS:COMBINER=Combinador de colores
+TOOLS:ADVANCEDRANDOM=Color aleatorio\navanzado
+TOOLS:ALLCOLORSIMAGE=Obtener los colores de una imágen
+TOOLS:HOVER=Pase el ratón sobre una herramienta para obtener información.
+
+TOOL_ADVRAND=Color aleatorio avanzado
+TOOL_ADVRAND:GENERATE=Generar
+TOOL_ADVRAND:HIGHRED=Rojo alto
+TOOL_ADVRAND:HIGHGREEN=Verde alto
+TOOL_ADVRAND:HIGHBLUE=Azúl alto
+TOOL_ADVRAND:HIGHSATURATION=Saturación alta
+TOOL_ADVRAND:HIGHVALUE=Valor alto
+TOOL_ADVRAND:GRAYSCALE=Escala de grises
+TOOL_ADVRAND:WEBSAFE=Color web
+TOOL_ADVRAND:SIMPLE=Simple
+TOOL_ADVRAND:ADVANCED=Advanzado
+
+TOOL_COMBINER=Combinador de colores
+TOOL_COMBINER:ADD=Añadir desde ColorUtility
+TOOL_COMBINER:REMOVE=Suprimir seleccionados
+
+TOOL_ALLCOLORS=Obtener los colores de una imágen
+TOOL_ALLCOLORS:PATH=Imagén:
+TOOL_ALLCOLORS:SELECT=Seleccionar
+
+TOOL_ALLCOLORS:MSG_CHECKING=Checking image...
+TOOL_ALLCOLORS:MSG_INVALID=Verificando imagén...
+TOOL_ALLCOLORS:MSG_IDLE=Parado.
+TOOL_ALLCOLORS:MSG_CHOOSE=Seleccionar fichero
+TOOL_ALLCOLORS:MSG_DIALOGFILTER=Todos los archivos (*.*)
+TOOL_ALLCOLORS:MSG_DOESNOTEXIST=Este fichero no existe!
+TOOL_ALLCOLORS:MSG_INITIALIZING=Inicializando...
+TOOL_ALLCOLORS:MSG_GATHERING=Buscando colores...
+TOOL_ALLCOLORS:MSG_POPULATING=Poblando lista...
+TOOL_ALLCOLORS:MSG_DONE=Terminado, {0} colores encontrados y {1} diferentes.
+TOOL_ALLCOLORS:MSG_ETA=Tiempo restante estimado: {0}
+TOOL_ALLCOLORS:MSG_SECS={0} segundos
+TOOL_ALLCOLORS:MSG_IMGTOOBIG=Esta imagén es demasiado grande!
+TOOL_ALLCOLORS:MSG_ELAPSED=Tiempo transcurrido
+TOOL_ALLCOLORS:MSG_STOPPING=Parando...
+
+COMMON:CANCEL=Cancelar
+COMMON:SELECTANDCLOSE=Elegir y cerrar
+COMMON:INPUT=Entrada
+COMMON:OUTPUT=Salida
+COMMON:CLOSE=Cerrar
+COMMON:START=Empezar
+COMMON:STOP=Parar
+COMMON:ERROR=Error
+COMMON:DONE=Terminado
+COMMON:SEARCH=Buscar
+COMMON:YES=Sí
+COMMON:NO=No
+COMMON:DONTASK=No volver a preguntar
+
+TOOL_DESC=Descripción:
+TOOL_DESC:COMBINER=Combine tantos colores como quiera con esta herramienta simplificada.
+TOOL_DESC:ADVANCEDRANDOM=Crear nuevos colores de forma aleatoria con más opciones.
+TOOL_DESC:ALLCOLORSIMAGE=Obtener todos los colores de una imágen y mostrarlos en una lista.
+
+SETTINGS=Opciones
+SETTINGS:SPACES=Modelos de color
+SETTINGS:SPEED=Velocidad
+SETTINGS:OPTIMIZE=Optimizar para ordenadores lentos
+SETTINGS:LANGUAGE=Idioma
+SETTINGS:LANGUAGESET=Ok
+SETTINGS:CLIPBOARD=Portapapeles
+SETTINGS:CLIP_COPY=Copiar Hex a portapapeles al seleccionar
+
+CREDITS=Creditos
+CREDITS:CODED=Codificado y diseñado por:
+CREDITS:NORWEGIAN=Traducción naruega:
+CREDITS:WEBSITE=Página web:
+
+INFO=Información
+INFO:PICKER=Selector de color\nClic izquierdo para elegir color\nClick derecho para cerrar el selector
+INFO:RANDOM=Color aleatorio
+INFO:WEBSAFE=Convertir a color web
+INFO:COLOR_RIGHTCLICK=Haga clic derecho aquí para más formatos
+INFO:SPEED=Esta opción disminue la utilización de la memoria\npero también disminue el rendimiento.
+INFO:CLIPBOARD_HEX=Si esta activado, el código hexadecimal del color\nseleccionado por el selector de color sera copiado.
+
+FORMATS:VBNET=Copiar para VB.Net
+FORMATS:VBHEX=Copiar Hex para VB
+FORMATS:CSS=Copiar para CSS
+FORMATS:WINFORMS=Copiar para WinForms
+FORMATS:HEX=Copiar hexadecimal
+FORMATS:HSV=Copiar HSV
+
+PICKER:COLORCHANGED=Ha cerrado el selector de color y el color ha cambiado.\nQuiere revertir al color original?

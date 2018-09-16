@@ -1,0 +1,133 @@
+﻿#author=Xylem Studios
+#name=English
+#shortname=en
+#contact=webmaster@xylemstudios.com
+#site=http://xylemstudios.com
+
+RGB=RGB
+RGB:R=R
+RGB:G=G
+RGB:B=B
+
+HSV=HSV
+HSV:H=H
+HSV:S=S
+HSV:V=V
+
+FILTERS=Filters
+FILTERS:GRAYSCALE=Grayscale
+FILTERS:NEGATIVE=Negative
+FILTERS:SEPIA=Sepia
+FILTERS:BRIGHTER=Brighter
+FILTERS:DARKER=Darker
+FILTERS:INTENSIFY=Intensify
+FILTERS:REDONLY=Red only
+FILTERS:GREENONLY=Green only
+FILTERS:BLUEONLY=Blue only
+FILTERS:RGBSHUFFLE=RGB Shuffle
+FILTERS:HOVER=Hover over a filter to get more information about it.
+
+FILTER_DESC=Filter description
+FILTER_DESC:GRAYSCALE=Converts the color to grayscale.
+FILTER_DESC:NEGATIVE=Negates the RGB values of the color.
+FILTER_DESC:SEPIA=Converts the color to a sepia tone.
+FILTER_DESC:BRIGHTER=Makes the current color brighter.
+FILTER_DESC:DARKER=Makes the current color darker.
+FILTER_DESC:INTENSIFY=Makes the current color more intense. Please note this filter is experimental.
+FILTER_DESC:REDONLY=Only the red channel of the color.
+FILTER_DESC:GREENONLY=Only the green channel of the color.
+FILTER_DESC:BLUEONLY=Only the blue channel of the color.
+FILTER_DESC:RGBSHUFFLE=Shuffle the red, green and blue channel.
+
+TOOLS=Other tools
+TOOLS:COMBINER=Color combiner
+TOOLS:ADVANCEDGRAY=Advanced grayscale
+TOOLS:ADVANCEDRANDOM=Advanced\nrandom color
+TOOLS:ALLCOLORSIMAGE=Get all colors\nin an image
+TOOLS:HOVER=Hover over a tool to get more information about it.
+
+TOOL_ADVRAND=Advanced random color
+TOOL_ADVRAND:GENERATE=Generate
+TOOL_ADVRAND:HIGHRED=High red
+TOOL_ADVRAND:HIGHGREEN=High green
+TOOL_ADVRAND:HIGHBLUE=High blue
+TOOL_ADVRAND:HIGHSATURATION=High saturation
+TOOL_ADVRAND:HIGHVALUE=High value
+TOOL_ADVRAND:GRAYSCALE=Grayscale
+TOOL_ADVRAND:WEBSAFE=Websafe
+TOOL_ADVRAND:SIMPLE=Simple
+TOOL_ADVRAND:ADVANCED=Advanced
+
+TOOL_COMBINER=Color combiner
+TOOL_COMBINER:ADD=Add from ColorUtility
+TOOL_COMBINER:REMOVE=Remove selected
+
+TOOL_ALLCOLORS=Get all colors in an image
+TOOL_ALLCOLORS:PATH=Image path
+TOOL_ALLCOLORS:SELECT=Select color
+
+TOOL_ALLCOLORS:MSG_CHECKING=Checking image...
+TOOL_ALLCOLORS:MSG_INVALID=Image is not valid.
+TOOL_ALLCOLORS:MSG_IDLE=Idle.
+TOOL_ALLCOLORS:MSG_CHOOSE=Choose a file
+TOOL_ALLCOLORS:MSG_DIALOGFILTER=All files (*.*)
+TOOL_ALLCOLORS:MSG_DOESNOTEXIST=File doesn't exist!
+TOOL_ALLCOLORS:MSG_INITIALIZING=Initializing...
+TOOL_ALLCOLORS:MSG_GATHERING=Gathering colors...
+TOOL_ALLCOLORS:MSG_POPULATING=Populating list...
+TOOL_ALLCOLORS:MSG_DONE=Done, {0} colors found with {1} different colors.
+TOOL_ALLCOLORS:MSG_ETA=Estimated time remaining: {0}
+TOOL_ALLCOLORS:MSG_SECS={0} seconds
+TOOL_ALLCOLORS:MSG_IMGTOOBIG=Image is too big!
+TOOL_ALLCOLORS:MSG_ELAPSED=Time elapsed
+TOOL_ALLCOLORS:MSG_STOPPING=Stopping...
+
+COMMON:CANCEL=Cancel
+COMMON:SELECTANDCLOSE=Select and close
+COMMON:INPUT=Input
+COMMON:OUTPUT=Output
+COMMON:CLOSE=Close
+COMMON:START=Start
+COMMON:STOP=Stop
+COMMON:ERROR=Error
+COMMON:DONE=Done
+COMMON:SEARCH=Search
+COMMON:YES=Yes
+COMMON:NO=No
+COMMON:DONTASK=Don't ask again
+
+TOOL_DESC=Tool description
+TOOL_DESC:COMBINER=Combine as many colors as you wish with this really simple tool.
+TOOL_DESC:ADVANCEDRANDOM=Create random colors, but with more options, such as red, green or blue intensity.
+TOOL_DESC:ALLCOLORSIMAGE=Get all colors in an image and display them in a list.
+
+SETTINGS=Settings
+SETTINGS:SPACES=Color spaces
+SETTINGS:SPEED=Speed options
+SETTINGS:OPTIMIZE=Optimize speed for slow computers
+SETTINGS:LANGUAGE=Language
+SETTINGS:LANGUAGESET=Set
+SETTINGS:CLIPBOARD=Clipboard options
+SETTINGS:CLIP_COPY=Copy Hex to clipboard after selection
+
+CREDITS=Credits
+CREDITS:CODED=Coded and designed by:
+CREDITS:NORWEGIAN=Norwegian translation:
+CREDITS:WEBSITE=Website:
+
+INFO=Information
+INFO:PICKER=Color picker\nLeft click to select color\nRight click to exit color picker mode
+INFO:RANDOM=Random color
+INFO:WEBSAFE=Convert to websafe color
+INFO:COLOR_RIGHTCLICK=Right click here to get more format options
+INFO:SPEED=Enabling this will cause the program to use less\nmemory but it won't perform as well.
+INFO:CLIPBOARD_HEX=This will copy the hexadecimal code of the color\nafter being selected by the color picker.
+
+FORMATS:VBNET=Copy for VB.Net
+FORMATS:VBHEX=Copy Hex for VB
+FORMATS:CSS=Copy for CSS
+FORMATS:WINFORMS=Copy for WinForms
+FORMATS:HEX=Copy hexadecimal
+FORMATS:HSV=Copy HSV
+
+PICKER:COLORCHANGED=You have exited color picker mode and the selected color has changed.\nWould you like to revert to the original color?

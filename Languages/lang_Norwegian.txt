@@ -1,0 +1,133 @@
+﻿#author=Jonas Triki (Triki Technologies)
+#name=Norwegian
+#shortname=nb
+#contact=webmaster@triki-tech.com
+#site=http://triki-tech.com
+
+RGB=RGB
+RGB:R=R
+RGB:G=G
+RGB:B=B
+
+HSV=HSV
+HSV:H=H
+HSV:S=S
+HSV:V=V
+
+FILTERS=Filtere
+FILTERS:GRAYSCALE=Gråtone
+FILTERS:NEGATIVE=Negativt
+FILTERS:SEPIA=Sepia
+FILTERS:BRIGHTER=Lysere
+FILTERS:DARKER=Mørkere
+FILTERS:INTENSIFY=Forsterking
+FILTERS:REDONLY=Bare rød
+FILTERS:GREENONLY=Bare grønn
+FILTERS:BLUEONLY=Bare blå
+FILTERS:RGBSHUFFLE=RGB Miks
+FILTERS:HOVER=Dra markøren over et filter for å vise informasjon om det.
+
+FILTER_DESC=Filter beskrivelse
+FILTER_DESC:GRAYSCALE=Konverterer fargen til gråtoner.
+FILTER_DESC:NEGATIVE=Utelukker RGB verdiene av fargen.
+FILTER_DESC:SEPIA=Konverterer fargen til en sepia tone.
+FILTER_DESC:BRIGHTER=Gjør den nåværende fargen lysere.
+FILTER_DESC:DARKER=Gjør den nåværende fargen mørkere.
+FILTER_DESC:INTENSIFY=Gjør den nåværende fargen mer intens. Vær oppmerksom på at dette filteret er eksperimentell.
+FILTER_DESC:REDONLY=Bare den røde kanalen av fargen.
+FILTER_DESC:GREENONLY=Bare den grønne kanalen av fargen.
+FILTER_DESC:BLUEONLY=Bare den blå kanalen av fargen.
+FILTER_DESC:RGBSHUFFLE=Bland den røde, grønne og blå kanalen.
+
+TOOLS=Andre verktøy
+TOOLS:COMBINER=Farge kombinerner
+TOOLS:ADVANCEDRANDOM=Avansert\ntilfeldig farge
+TOOLS:ALLCOLORSIMAGE=Få alle fargene\ni et bilde
+TOOLS:HOVER=Dra markøren over et verktøy for å vise informasjon om det.
+
+TOOL_ADVRAND=Avansert tilfeldig farge
+TOOL_ADVRAND:GENERATE=Generer
+TOOL_ADVRAND:HIGHRED=Høy rød
+TOOL_ADVRAND:HIGHGREEN=Høy grønn
+TOOL_ADVRAND:HIGHBLUE=Høy blå
+TOOL_ADVRAND:HIGHSATURATION=Høy metning
+TOOL_ADVRAND:HIGHVALUE=Høy verdi
+TOOL_ADVRAND:GRAYSCALE=Gråtone
+TOOL_ADVRAND:WEBSAFE=Websikkert
+TOOL_ADVRAND:SIMPLE=Enkelt
+TOOL_ADVRAND:ADVANCED=Avansert
+
+TOOL_COMBINER=Farge kombinerner
+TOOL_COMBINER:ADD=Legg til fra ColorUtility
+TOOL_COMBINER:REMOVE=Fjern valgte
+
+TOOL_ALLCOLORS=Få alle fargene i et bilde
+TOOL_ALLCOLORS:PATH=Bilde filbane
+TOOL_ALLCOLORS:SELECT=Velg farge
+
+TOOL_ALLCOLORS:MSG_CHECKING=Kontrollerer bilde...
+TOOL_ALLCOLORS:MSG_INVALID=Bildet er ikke gyldig.
+TOOL_ALLCOLORS:MSG_IDLE=Inaktiv.
+TOOL_ALLCOLORS:MSG_CHOOSE=Velg en fil
+TOOL_ALLCOLORS:MSG_DIALOGFILTER=Alle filer (*.*)
+TOOL_ALLCOLORS:MSG_DOESNOTEXIST=Filen finnes ikke!
+TOOL_ALLCOLORS:MSG_INITIALIZING=Initialiserer...
+TOOL_ALLCOLORS:MSG_GATHERING=Samler farger...
+TOOL_ALLCOLORS:MSG_POPULATING=Fyller liste ...
+TOOL_ALLCOLORS:MSG_DONE=Ferdig, {0} farger funnet med {1} forskjellige farger.
+TOOL_ALLCOLORS:MSG_ETA=Beregnet tid som gjenstår: {0}
+TOOL_ALLCOLORS:MSG_SECS={0} sekunder
+TOOL_ALLCOLORS:MSG_IMGTOOBIG=Bildet er for stort!
+TOOL_ALLCOLORS:MSG_ELAPSED=Tid medgått
+TOOL_ALLCOLORS:MSG_STOPPING=Stopper...
+
+COMMON:CANCEL=Avbryt
+COMMON:SELECTANDCLOSE=Velg og lukk
+COMMON:INPUT=Inndata
+COMMON:OUTPUT=Utdata
+COMMON:CLOSE=Lukk
+COMMON:START=Start
+COMMON:STOP=Stopp
+COMMON:ERROR=Feil
+COMMON:DONE=Ferdig
+COMMON:SEARCH=Søk
+COMMON:YES=Ja
+COMMON:NO=Nei
+COMMON:DONTASK=Ikke spør igjen
+
+TOOL_DESC=Verktøy beskrivelse
+TOOL_DESC:COMBINER=Kombiner så mange farger som du ønsker med denne virkelig enkle verktøyet.
+TOOL_DESC:ADVANCEDGRAY=Gjør farger gråtone i en mer avansert måte, ved å sette den grå intensiteten.
+TOOL_DESC:ADVANCEDRANDOM=Lag tilfeldige farger, men med flere alternativer, for eksempel rød, grønn eller blå intensitet.
+TOOL_DESC:ALLCOLORSIMAGE=Få alle fargene i et bilde og vis dem i en liste.
+
+SETTINGS=Instillinger
+SETTINGS:SPACES=Fargeområder
+SETTINGS:SPEED=Hastighets ​​alternativer
+SETTINGS:OPTIMIZE=Optimer hastighet for trege datamaskiner
+SETTINGS:LANGUAGE=Språk
+SETTINGS:LANGUAGESET=Sett
+SETTINGS:CLIPBOARD=Alternativer for utklippstavle
+SETTINGS:CLIP_COPY=Kopier Hex til utklippstavle etter valget
+
+CREDITS=Kreditter
+CREDITS:CODED=Kodet og designet av:
+CREDITS:NORWEGIAN=Norsk oversettelse:
+CREDITS:WEBSITE=Nettside:
+
+INFO=Informasjon
+INFO:PICKER=Fargevelger\nVenstre klikk for å velge farge\nHøyre klikk for å avslutte fargevelger modus
+INFO:RANDOM=Tilfeldig farge
+INFO:WEBSAFE=Koverter til websikker farge
+INFO:COLOR_RIGHTCLICK=Høyreklikk her for å få flere format alternativer
+INFO:SPEED=Aktiverer du dette vil programmet bruke mindre\nminne, men ytelsen vil ikke bli optimal.
+INFO:CLIPBOARD_HEX=Dette vil kopiere den heksadesimale koden fra fargen\netter den er blitt markert fra skjerm-fargevelgeren.
+
+FORMATS:VBNET=Kopier for VB.Net
+FORMATS:VBHEX=Kopier Hex for VB
+FORMATS:CSS=Kopier for CSS
+FORMATS:WINFORMS=Kopier for WinForms
+FORMATS:HEX=Kopier heksadesimal
+FORMATS:HSV=Kopier HSV
+
+PICKER:COLORCHANGED=Du har avsluttet fargevelger modus og den valgte fargen har endret seg.\nVil du gå tilbake til den opprinnelige fargen?
